@@ -8,3 +8,7 @@ ghc:
 
 script:
   - cabal configure --enable-tests && cabal build
+
+arch:
+  - amd64
+  - ppc64le
